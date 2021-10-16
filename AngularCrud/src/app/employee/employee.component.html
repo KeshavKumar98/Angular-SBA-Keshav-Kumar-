@@ -1,0 +1,19 @@
+<p>employee data shown here by consuming web api ! </p>
+<div class="container">
+    <h1>Angular CRUD Example </h1>
+           
+    <table class="table table-bordered">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        
+      </tr>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.Id }}</td>
+        <td>{{ employee.Name  }}</td>
+        <td>{{ employee.salary  }}</td>
+             
+      </tr>
+    </table>
+ </div>
